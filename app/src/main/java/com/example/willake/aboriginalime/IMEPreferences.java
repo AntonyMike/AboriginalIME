@@ -1,10 +1,5 @@
 package com.example.willake.aboriginalime;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.preference.PreferenceActivity;
-import com.android.aoimecommon.AOIMESettingsFragment;
-
 /*
  * Copyright (C) 2011 The Android Open Source Project
  *
@@ -20,6 +15,11 @@ import com.android.aoimecommon.AOIMESettingsFragment;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.preference.PreferenceActivity;
+import com.android.aoimecommon.AOIMESettingsFragment;
 
 public class IMEPreferences extends PreferenceActivity {
     @Override

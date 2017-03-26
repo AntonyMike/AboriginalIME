@@ -16,6 +16,11 @@ package com.android.aoimecommon;
  * limitations under the License.
  */
 
+/**
+ * this is the Fragment for Preference setting
+ */
+
+
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -37,6 +42,7 @@ public abstract class AOIMESettingsFragment extends PreferenceFragment
 
     /**
      * {@inheritDoc}
+     * Sets the title for the input method settings category with a resource ID.
      */
     @Override
     public void setInputMethodSettingsCategoryTitle(int resId) {
@@ -45,6 +51,7 @@ public abstract class AOIMESettingsFragment extends PreferenceFragment
 
     /**
      * {@inheritDoc}
+     * Sets the title for the input method settings category with a CharSequence.
      */
     @Override
     public void setInputMethodSettingsCategoryTitle(CharSequence title) {
@@ -53,6 +60,7 @@ public abstract class AOIMESettingsFragment extends PreferenceFragment
 
     /**
      * {@inheritDoc}
+     * Sets the title for the input method enabler preference for launching subtype enabler with a resource ID.
      */
     @Override
     public void setSubtypeEnablerTitle(int resId) {
@@ -61,6 +69,7 @@ public abstract class AOIMESettingsFragment extends PreferenceFragment
 
     /**
      * {@inheritDoc}
+     * Sets the title for the input method enabler preference for launching subtype enabler with a CharSequence.
      */
     @Override
     public void setSubtypeEnablerTitle(CharSequence title) {
@@ -69,6 +78,7 @@ public abstract class AOIMESettingsFragment extends PreferenceFragment
 
     /**
      * {@inheritDoc}
+     * Sets the icon for the preference for launching subtype enabler with a resource ID.
      */
     @Override
     public void setSubtypeEnablerIcon(int resId) {
@@ -77,6 +87,7 @@ public abstract class AOIMESettingsFragment extends PreferenceFragment
 
     /**
      * {@inheritDoc}
+     * Sets the icon for the Preference for launching subtype enabler with a Drawable.
      */
     @Override
     public void setSubtypeEnablerIcon(Drawable drawable) {
