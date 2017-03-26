@@ -24,7 +24,7 @@
     <string name="ime_name">AboriginalIME</string>
 
     <!-- Symbols that are commonly considered word separators in this language -->
-    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <string name="word_separators">\u0020.,;:!?\n()^´[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
 
     <!-- Labels on soft keys -->
     <string name="label_go_key">Go</string>
@@ -36,7 +36,7 @@
     <string name="label_subtype_en_GB">English (GB)</string>
 
     <!-- Titles for ImePreference -->
-    <string name="settings_name">Sample Soft Keyboard Settings</string>
+    <string name="settings_name">Aboriginal Soft Keyboard Settings</string>
     <string name="language_selection_title">Input languages</string>
     <string name="select_language">Select input languages</string>
     <string name="general_category">General</string>
