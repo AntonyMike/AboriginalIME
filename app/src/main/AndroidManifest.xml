@@ -21,7 +21,7 @@
             <meta-data android:name="android.view.im" android:resource="@xml/method" />
         </service>
 
-        <activity android:name=".IMEPreferences" android:label="@string/settings_name">
+        <activity android:name="IMEPreferences" android:label="@string/settings_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
