@@ -26,6 +26,7 @@
     android:keyBackground="@drawable/keyshape"
     android:keyTextColor="#000000"
     android:background="@color/keyboard_background_light"
+    android:keyTextSize="@dimen/key_text_size"
     >
 
 </com.example.willake.aboriginalime.AboriginalKeyboardView>
