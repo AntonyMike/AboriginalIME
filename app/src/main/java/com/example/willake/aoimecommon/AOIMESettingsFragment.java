@@ -1,4 +1,4 @@
-package com.android.aoimecommon;
+package com.example.willake.aoimecommon;
 
 /*
  * Copyright (C) 2017 Willake Lin
@@ -26,8 +26,6 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
-
-import com.android.aoimecommon.AOIMESettingsImpl;
 
 public abstract class AOIMESettingsFragment extends PreferenceFragment
         implements AOIMESettingsInterface {

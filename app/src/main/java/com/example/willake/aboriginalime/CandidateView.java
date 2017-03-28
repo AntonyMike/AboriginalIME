@@ -63,11 +63,6 @@ public class CandidateView extends View {
 
     private GestureDetector mGestureDetector;
 
-    /**
-     * Construct a CandidateView for showing suggested words for completion.
-     * @param context
-     * @param attrs
-     */
     public CandidateView(Context context) {
         super(context);
         mSelectionHighlight = context.getResources().getDrawable(

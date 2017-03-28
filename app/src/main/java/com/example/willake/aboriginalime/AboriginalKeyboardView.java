@@ -46,9 +46,10 @@ public class AboriginalKeyboardView extends KeyboardView{
         }
     }
 
+    /*
     void setSubtypeOnSpaceKey(final InputMethodSubtype subtype) {
-        final AboriginalKeyboard keyboard = (AboriginalKeyboard)getKeyboard();
+        final AboriginalKeyboard keyboard = (AboriginalKeyboard) getKeyboard();
         keyboard.setSpaceIcon(getResources().getDrawable(subtype.getIconResId()));
         invalidateAllKeys();
-    }
+    }*/
 }

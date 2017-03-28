@@ -19,7 +19,7 @@ package com.example.willake.aboriginalime;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
-import com.android.aoimecommon.AOIMESettingsFragment;
+import com.example.willake.aoimecommon.AOIMESettingsFragment;
 
 public class IMEPreferences extends PreferenceActivity {
     @Override

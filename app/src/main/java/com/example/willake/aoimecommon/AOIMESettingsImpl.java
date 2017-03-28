@@ -1,4 +1,4 @@
-package com.android.aoimecommon;
+package com.example.willake.aoimecommon;
 
 /*
  * Copyright (C) 2017 Willake Lin

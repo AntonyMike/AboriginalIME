@@ -1,4 +1,4 @@
-package com.android.aoimecommon;
+package com.example.willake.aoimecommon;
 
 import android.graphics.drawable.Drawable;
 
